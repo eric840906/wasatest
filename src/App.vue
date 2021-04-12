@@ -1,34 +1,28 @@
 <template>
   <Navbar/>
-  <router-view/>
+  <router-view v-slot="{ Component }">
+    <keep-alive>
+      <component :is="Component"></component>
+    </keep-alive>
+  </router-view>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { getContent } from '@/api'
 import Navbar from '@/components/Navbar.vue'
 export default defineComponent({
   components: {
     Navbar
-  },
-  setup () {
-    const getList = async () => {
-      const res = await getContent()
-      console.log(res)
-    }
-    getList()
   }
 })
 </script>
 
 <style lang="scss">
-// #app {
-//   font-family: Avenir, Helvetica, Arial, sans-serif;
-//   -webkit-font-smoothing: antialiased;
-//   -moz-osx-font-smoothing: grayscale;
-//   text-align: center;
-//   color: #2c3e50;
-// }
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+  background: $cyber-background;
+}
 
 // #nav {
 //   padding: 30px;

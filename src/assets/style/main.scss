@@ -1,1 +1,21 @@
 @import "normalize-scss/sass/normalize/_import-now";
+@import "./variables.scss";
+body {
+  color: $cyber-text;
+}
+a {
+  text-decoration: none;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.page {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
