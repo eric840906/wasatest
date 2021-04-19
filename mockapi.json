@@ -1,0 +1,86 @@
+[
+  {
+    "id": 0,
+    "name": "Eddard Stark" ,
+    "weight": 100,
+    "height": 190,
+    "gender": "male"
+  },
+  {
+    "id": 1,
+    "name": "Robert Baratheon" ,
+    "weight": 150,
+    "height": 210,
+    "gender": "male"
+  },
+  {
+    "id": 2,
+    "name": "Catelyn Stark" ,
+    "weight": 60,
+    "height": 170,
+    "gender": "female"
+  },
+  {
+    "id": 3,
+    "name": "Cersei Lannister" ,
+    "weight": 70,
+    "height": 175,
+    "gender": "female"
+  },
+  {
+    "id": 4,
+    "name": "Daenerys Targaryen" ,
+    "weight": 45,
+    "height": 150,
+    "gender": "female"
+  },
+  {
+    "id": 5,
+    "name": "Jorah Mormont" ,
+    "weight": 100,
+    "height": 190,
+    "gender": "male"
+  },
+  {
+    "id": 6,
+    "name": "Viserys Targaryen" ,
+    "weight": 75,
+    "height": 180,
+    "gender": "male"
+  },
+  {
+    "id": 7,
+    "name": "Jon Snow" ,
+    "weight": 90,
+    "height": 180,
+    "gender": "male"
+  },
+  {
+    "id": 8,
+    "name": "Robb Stark" ,
+    "weight": 100,
+    "height": 195,
+    "gender": "male"
+  },
+  {
+    "id": 9,
+    "name": "Sansa Stark" ,
+    "weight": 65,
+    "height": 168,
+    "gender": "female"
+  },
+  {
+    "id": 10,
+    "name": "Arya Stark" ,
+    "weight": 40,
+    "height": 160,
+    "gender": "female"
+  },
+  {
+    "id": 11,
+    "name": "Theon Greyjoy" ,
+    "weight": 70,
+    "height": 175,
+    "gender": "male"
+  }
+]

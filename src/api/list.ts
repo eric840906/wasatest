@@ -7,9 +7,9 @@ export interface UserData {
   gender: string
 }
 const list = axios.create({
-  baseURL: `${process.env.VUE_APP_APIPATH}`
+  baseURL: '/v1/'
 })
 export const getList = () => list.request({
-  url: '',
+  url: process.env.VUE_APP_APIPATH,
   method: 'GET'
 })
